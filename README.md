@@ -2,7 +2,7 @@
 
 This is the frontend of the **Geo Market Web Application**, a geospatial analytics platform designed to help users analyze and explore market accessibility across Burundi.
 
-👉 **Live Demo**: [https://yourusername.github.io/geo-market-frontend/](https://yourusername.github.io/geo-market-frontend/)  
+👉 **Live Demo**: [https://ouafcode.github.io/geo-market-frontend/](https://ouafcode.github.io/geo-market-frontend/)  
 👉 **Backend API**: [https://geo-market-app.onrender.com](https://geo-market-app.onrender.com)
 
 ---
