@@ -26,16 +26,3 @@ This is the frontend of the **Geo Market Web Application**, a geospatial analyti
 - **GitHub Pages** – Static site hosting
 
 ---
-
-## 📁 Project Structure
-
-geo-market-frontend/
-├── index.html # Homepage with map tools
-├── viewer.html # Alternative or detailed map view
-├── styles/
-│ ├── index.css
-│ └── viewer.css
-├── images/ # App icons or map images
-├── js/ # (Optional) JavaScript files
-│ └── viewer.js
-├── README.md
