@@ -210,7 +210,7 @@ $("#btnService").click(function () {
   removeLayerByName(mainMap, "area");
 
   $.ajax({
-    url: "https://geo-market-app.onrender.com/get_area",
+    url: "https://geo-market-app-1.onrender.com/get_area",
     data: {
       location: $("#Location-service").val(),
       size: $("input[name=size]:checked")[0].value,
@@ -258,7 +258,7 @@ $("#btnSearch").click(function () {
   $("#pnl-service-alert").hide();
 
   $.ajax({
-    url: "https://geo-market-app.onrender.com/search_markets",
+    url: "https://geo-market-app-1.onrender.com/search_markets",
     data: {
       location: $("#Location-search").val(),
       distance: $("#val").text(),
@@ -312,7 +312,7 @@ $("#btnfind").click(function () {
   $("#pnl-route-alert").hide();
 
   $.ajax({
-    url: "https://geo-market-app.onrender.com/short_route",
+    url: "https://geo-market-app-1.onrender.com/short_route",
     data: {
       source: $("#start").val(),
       target: $("#end").val(),
@@ -350,7 +350,7 @@ $("#btnClosest").click(function () {
   $("#pnl-route-alert").hide();
 
   $.ajax({
-    url: "https://geo-market-app.onrender.com/closet_market",
+    url: "https://geo-market-app-1.onrender.com/closet_market",
     data: {
       location: $("#location-closest").val(),
       srid: 3857,
